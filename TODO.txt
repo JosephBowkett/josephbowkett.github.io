@@ -1,0 +1,9 @@
+Add all papers in
+
+Remove blog posts, guide
+
+Perhaps comment out talks, teaching, portfolio
+
+Need to attempt to add things from RCTA into the portfolio. (provided am allowed to reference them)
+
+

@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.E. in Mechatronics (1st class honours), 2013
+* M.S. in Mechanical Engineering, California Institute of Technology, 2016
+* Ph.D in Mechanical Engineering, California Institute of Technology, 2020 (expected)
 
 Work experience
 ======
