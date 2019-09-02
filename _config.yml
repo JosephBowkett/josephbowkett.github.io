@@ -13,7 +13,7 @@ name                     : &name "Joseph Bowkett"
 description              : &description "PhD Candidate, Caltech"
 url                      : https://joseph-bowkett.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "josephbowkett/josephbowkett.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -216,7 +216,7 @@ defaults:
 #    values:
 #      layout: single
 #      author_profile: true
-#      share: true
+#      share: false #true
 #      comments: true
   # _publications
   - scope:
@@ -232,10 +232,10 @@ defaults:
 #      path: ""
 #      type: portfolio
 #    values:
-$      layout: single
-$      author_profile: true
-$      share: true
-$      comment: true
+#      layout: single
+#      author_profile: true
+#      share: false #true
+#      comment: true
   # _talks
 #  - scope:
 #      path: ""
@@ -243,7 +243,7 @@ $      comment: true
 #    values:
 #      layout: talk
 #      author_profile: true
-#      share: true
+#      share: false #true
 
 # Sass/SCSS
 sass:
