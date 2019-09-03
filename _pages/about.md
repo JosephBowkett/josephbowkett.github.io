@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Bio"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,14 +10,26 @@ redirect_from:
 
 I'm a robotics researcher currently studying towards a PhD in the Burdick group of the Mechanical & Civil Engineering Department of the California Institute of Technology. My interests focus around what is termed behavior level or 'functional' autonomy for robotic tasks, particularly in regard to grasping and manipulation, leveraging both proprioception and exteroception to build understanding of unstructured task spaces. For the last three years this work has been conducted as an affiliate of the Mobility & Robotic Systems section of NASA's Jet Propulsion Laboratory.
 
-**Markdown generator**
+Some of the projects I've been working on recently include:
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Robotics Collaborative Technology Alliance
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+
+![RCTA Institutions](images/rcta_centers.png)
+
+Funded by the Army Research Laboratory, the Robotics Collaborative Technology Alliance (RCTA) brought together a number of research institutions to further aspects of robotics research that could facilitate the fielding of autonomous systems within active deployment zones to act as team members rather than just tools.
+
+![RCTA development objectives](images/tool_to_teammate.png)
+
+UPRITE
+------
+Unified PRocessing for Icy Terrain Exploration (UPRITE) is a strategic Research & Technology Development project at the Jet Propulsion Laboratory aimed at developing a means of autonomously selecting between discrete operating modes for a given task. It does this through an extension of a reinforcement learning algorithm named Multi-Armed Bandit theory, which attempts to intelligently select between different actions to maximize some payoff, without a priori knowledge of the reward given by each task.
+
+
+![JPL's Surrogate Robot - Artist's Impression](images/surrogate_artists.jpg)
+
+![JPL's Surrogate Robot - Original Configuration](images/surrogate.jpg)
+
 
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)
