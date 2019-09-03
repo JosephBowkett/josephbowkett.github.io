@@ -7,3 +7,4 @@ Perhaps comment out talks, teaching, portfolio
 Need to attempt to add things from RCTA into the portfolio. (provided am allowed to reference them)
 
 
+Turns out changing archive single to not show any excerpt appears to have removed it from the main page
