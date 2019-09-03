@@ -19,20 +19,21 @@ Robotics Collaborative Technology Alliance
 
 Funded by the Army Research Laboratory, the Robotics Collaborative Technology Alliance (RCTA) brought together a number of research institutions to further aspects of robotics research that could facilitate the fielding of autonomous systems within active deployment zones to act as team members rather than just tools.
 
-![RCTA development objectives](images/tool_to_teammate.png)
+![RCTA development objectives](images/tool_to_teammate.png =200x)
+
+My area of focus has been on manipulation of previously unseen large and unweildly objects within piles, such as might be encountered within an urban deployment setting. The platform developed to demonstrate this and other manipulation capabilities is named 'RoMan', a tracked dual arm robot developed using technology licensed from the Jet Propulsion Laboratory.
+
+![RCTA RoMan platform](images/roman.jpg =300x)
 
 UPRITE
 ------
 Unified PRocessing for Icy Terrain Exploration (UPRITE) is a strategic Research & Technology Development project at the Jet Propulsion Laboratory aimed at developing a means of autonomously selecting between discrete operating modes for a given task. It does this through an extension of a reinforcement learning algorithm named Multi-Armed Bandit theory, which attempts to intelligently select between different actions to maximize some payoff, without a priori knowledge of the reward given by each task.
 
+The manipulation side of the project is utiliaizing JPL's Surrogate platform:
 
-![JPL's Surrogate Robot - Artist's Impression](images/surrogate_artists.jpg)
+![JPL's Surrogate Robot - Artist's Impression](images/surrogate_artists.jpg =300x)
 
-![JPL's Surrogate Robot - Original Configuration](images/surrogate.jpg)
-
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+![JPL's Surrogate Robot - Original Configuration](images/surrogate.jpg =300x)
 
 For more info
 ------
