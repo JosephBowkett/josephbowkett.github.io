@@ -83,7 +83,7 @@ for row, item in publications.iterrows():
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    #md += "\ncitation: '" + html_escape(item.citation) + "'"
     
     md += "\n---"
     
