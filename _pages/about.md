@@ -19,11 +19,11 @@ Robotics Collaborative Technology Alliance
 
 Funded by the Army Research Laboratory, the Robotics Collaborative Technology Alliance (RCTA) brought together a number of research institutions to further aspects of robotics research that could facilitate the fielding of autonomous systems within active deployment zones to act as team members rather than just tools.
 
-<center> <img src="images/tool_to_teammate.png" alt="RCTA development objectives" width="500"> </center>
+<center> <img src="images/tool_to_teammate.png" alt="RCTA development objectives" width="300"> </center>
 
 My area of focus has been on manipulation of previously unseen large and unweildly objects within piles, such as might be encountered within an urban deployment setting. The platform developed to demonstrate this and other manipulation capabilities is named 'RoMan', a tracked dual arm robot developed using technology licensed from the Jet Propulsion Laboratory.
 
-<center> <img src="images/roman.jpg" alt="RCTA RoMan platform" width="500"> </center>
+<center> <img src="images/roman.jpg" alt="RCTA RoMan platform" width="600"> </center>
 
 UPRITE
 ------
