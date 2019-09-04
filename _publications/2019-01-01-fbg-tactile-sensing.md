@@ -1,9 +1,9 @@
 ---
 title: "Tactile Sensing and Control of Robotic Manipulator Integrating Fiber Bragg Grating Strain-Sensor."
 collection: publications
-permalink: /publication/2019-00-00-fbg-tactile-sensing
+permalink: /publication/2019-01-01-fbg-tactile-sensing
 excerpt: 'Tactile sensing is an instrumental modality of robotic manipulation, as it provides information that is not accessible via remote sensors such as cameras or lidars. Touch is particularly crucial in unstructured environments, where the robot&apos;s internal representation of manipulated objects is uncertain. In this study we present the sensorization of an existing artificial hand, with the aim to achieve fine control of robotic limbs and perception of object&apos;s physical properties. Tactile feedback is conveyed by means of a soft sensor integrated at the fingertip of a robotic hand. The sensor consists of an optical fiber, housing Fiber Bragg Gratings (FBGs) transducers, embedded into a soft polymeric material integrated on a rigid hand. Through several tasks involving grasps of different objects in various conditions, the ability of the system to acquire information is assessed. Results show that a classifier based on the sensor outputs of the robotic hand is capable of accurately detecting both size and rigidity of the operated objects (99.36 and 100% accuracy, respectively). Furthermore, the outputs provide evidence of the ability to grab fragile objects without breakage or slippage e and to perform dynamic manipulative tasks, that involve the adaptation of fingers position based on the grasped objects&apos; condition.'
-date: 2019-00-00
+date: 2019-01-01
 venue: 'Frontiers In Neurorobotics'
 authors: 'L. Massari, C. M. Oddo, E. Sinibaldi, R. Detry, J. Bowkett and K. C. Carpenter'
 ---
