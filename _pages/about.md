@@ -23,7 +23,7 @@ Funded by the Army Research Laboratory, the Robotics Collaborative Technology Al
 
 My area of focus has been on manipulation of previously unseen large and unweildly objects within piles, such as might be encountered within an urban deployment setting. The platform developed to demonstrate this and other manipulation capabilities is named 'RoMan', a tracked dual arm robot developed using technology licensed from the Jet Propulsion Laboratory.
 
-<img src="images/roman.jpg" alt="RCTA RoMan platform" width="300"/>
+<img src="images/roman.jpg" alt="RCTA RoMan platform" width="300">
 
 UPRITE
 ------
