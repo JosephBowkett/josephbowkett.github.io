@@ -84,7 +84,8 @@ for row, item in publications.iterrows():
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     #md += "\ncitation: '" + html_escape(item.citation) + "'"
-    
+
+    md += "\nauthors: '" + html_escape(item.authors) + "'"
     md += "\n---"
     
     ## Markdown description for individual page
