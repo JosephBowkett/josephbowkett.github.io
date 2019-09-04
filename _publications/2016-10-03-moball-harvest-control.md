@@ -7,6 +7,7 @@ date: 2016-10-03
 venue: 'International Symposium on Experimental Robotics'
 authors: 'J. Bowkett, M. Burkhardt, and J.W. Burdick'
 ---
+authors: 'J. Bowkett, M. Burkhardt, and J.W. Burdick'
 
 <a href='https://link.springer.com/chapter/10.1007/978-3-319-50115-4_7'>Download paper here</a>
 

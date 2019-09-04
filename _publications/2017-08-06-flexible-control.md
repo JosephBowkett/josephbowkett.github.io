@@ -7,6 +7,7 @@ date: 2017-08-06
 venue: 'ASME International Design Engineering Technical Conferences'
 authors: 'J. Bowkett, and R. Mukherjee '
 ---
+authors: 'J. Bowkett, and R. Mukherjee '
 
 <a href='https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2017/58202/V006T10A027/258248'>Download paper here</a>
 

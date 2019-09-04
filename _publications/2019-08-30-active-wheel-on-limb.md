@@ -7,6 +7,7 @@ date: 2019-08-30
 venue: 'Conference on Field and Service Robotics'
 authors: 'W. Reid, G. Meirion-Griffith, S. Karumanchi, B. Emmanuel, J. B. Brendan Chamberlain-Simon, J. Bowkett,  and M. Garrett'
 ---
+authors: 'W. Reid, G. Meirion-Griffith, S. Karumanchi, B. Emmanuel, J. B. Brendan Chamberlain-Simon, J. Bowkett,  and M. Garrett'
 
 <a href='http://www.srg.mech.keio.ac.jp/fsr2019/pdf/FSR_2019_paper_43.pdf'>Download paper here</a>
 
