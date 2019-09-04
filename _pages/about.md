@@ -29,7 +29,7 @@ UPRITE
 ------
 Unified PRocessing for Icy Terrain Exploration (UPRITE) is a strategic Research & Technology Development project at the Jet Propulsion Laboratory aimed at developing a means of autonomously selecting between discrete operating modes for a given task. It does this through an extension of a reinforcement learning algorithm named Multi-Armed Bandit theory, which attempts to intelligently select between different actions to maximize some payoff, without a priori knowledge of the reward given by each task.
 
-The manipulation side of the project is utiliaizing JPL's Surrogate platform:
+The manipulation side of the project is utilizing JPL's Surrogate platform:
 
 <center> <img src="images/surrogate_artists.jpg" alt="JPL's Surrogate Robot - Artist's Impression" width="500"> </center>
 
