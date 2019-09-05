@@ -90,7 +90,7 @@ for row, item in publications.iterrows():
     
     ## Markdown description for individual page
 
-    md += "\nauthors: '" + html_escape(item.authors) + "'"
+    md += "\n" + html_escape(item.authors)
     
     if len(str(item.paper_url)) > 5:
         md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 

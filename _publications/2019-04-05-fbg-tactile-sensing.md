@@ -7,7 +7,7 @@ date: 2019-04-05
 venue: 'Frontiers In Neurorobotics'
 authors: 'L. Massari, C. M. Oddo, E. Sinibaldi, R. Detry, J. Bowkett and K. C. Carpenter'
 ---
-authors: 'L. Massari, C. M. Oddo, E. Sinibaldi, R. Detry, J. Bowkett and K. C. Carpenter'
+L. Massari, C. M. Oddo, E. Sinibaldi, R. Detry, J. Bowkett and K. C. Carpenter
 
 <a href='http://dx.doi.org/10.3389/fnbot.2019.00008'>Download paper here</a>
 

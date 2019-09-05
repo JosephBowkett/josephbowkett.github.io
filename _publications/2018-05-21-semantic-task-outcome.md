@@ -7,7 +7,7 @@ date: 2018-05-21
 venue: 'ICRA Representing a Complex World'
 authors: 'J. Bowkett, R. Detry, and L.H. Matthies'
 ---
-authors: 'J. Bowkett, R. Detry, and L.H. Matthies'
+J. Bowkett, R. Detry, and L.H. Matthies
 
 <a href='https://natanaso.github.io/rcw-icra18/assets/ref/ICRA-MRP18_paper_21.pdf'>Download paper here</a>
 
