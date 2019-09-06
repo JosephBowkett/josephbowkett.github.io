@@ -25,6 +25,8 @@ My area of focus has been on manipulation of previously unseen large and unweild
 
 <center> <img src="images/roman.jpg" alt="RCTA RoMan platform" title="RCTA RoMan platform" width="600"> </center>
 
+We're using Roman to perceive, grasp, and transport a diverse range of large items, some with a model but most without. This employs RGBD vision to singulate objects and reason about their connectedness, grasp planning once a candidate object is found, and wrench reactive control, to allow the end effector to deflect its pose while lifting the heavy objects.
+
 UPRITE
 ------
 Unified PRocessing for Icy Terrain Exploration (UPRITE) is a strategic Research & Technology Development project at the Jet Propulsion Laboratory aimed at developing a means of autonomously selecting between discrete operating modes for a given task. It does this through an extension of a reinforcement learning algorithm named Multi-Armed Bandit theory, which attempts to intelligently select between different actions to maximize some payoff, without a priori knowledge of the reward given by each task.
@@ -35,6 +37,3 @@ The manipulation side of the project is utilizing JPL's Surrogate platform:
 
 <center> <img src="images/surrogate.jpg" alt="JPL's Surrogate Robot - Original Configuration" title="JPL's Surrogate Robot - Original Configuration" width="500"> </center>
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
