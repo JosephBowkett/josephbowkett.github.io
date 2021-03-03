@@ -14,7 +14,9 @@ Some of the projects I've been working on recently include:
 
 Sampling Autonomy for an Europa Lander (SAEL)
 ------
+
 I'm presently the deputy task manager for the SAEL task at JPL, investigating problems relating to sampling peculiar to icy moons such as Europa, where biosignatures of life in liquid oceans deep inside the ice crust might be found just under the surface, out of reach of the high radiation from the Jovian magnetosphere.
+
 
 Robotics Collaborative Technology Alliance
 ------
