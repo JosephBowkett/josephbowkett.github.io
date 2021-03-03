@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a robotics researcher currently studying towards a PhD in the Burdick group of the Mechanical & Civil Engineering Department of the California Institute of Technology. My interests focus around what is termed behavior level or 'functional' autonomy for robotic tasks, particularly in regard to grasping and manipulation, leveraging both proprioception and exteroception to build understanding of unstructured task spaces. For the last three years this work has been conducted as an affiliate of the Mobility & Robotic Systems section of NASA's Jet Propulsion Laboratory.
+I'm a Robotics Technologist at NASA's Jet Propulsion Laboratory, and recently completed a PhD in the Burdick group of the Mechanical & Civil Engineering Department of the California Institute of Technology. My interests focus around what is termed behavior level or 'functional' autonomy for robotic tasks, particularly in regard to grasping and manipulation, leveraging both proprioception and exteroception to build understanding of unstructured task spaces. For the last three years this work has been conducted as an affiliate of the Mobility & Robotic Systems section of NASA's Jet Propulsion Laboratory.
 
 Some of the projects I've been working on recently include:
 
