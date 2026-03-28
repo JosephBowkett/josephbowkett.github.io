@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Joseph Bowkett"
   avatar           : "profile.png"
-  bio              : "Robotics Technologist, 347G, NASA Jet Propulsion Laboratory"
+  bio              : "Group Lead, Robotic Manipulation & Sampling (358J), NASA Jet Propulsion Laboratory"
   location         : "Pasadena, California"
   employer         :
   pubmed           : 
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # "academicpages"
+  github           : https://github.com/JosephBowkett
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : 
+  linkedin         : https://www.linkedin.com/in/joseph-bowkett/
+  orcid            : https://orcid.org/0000-0002-3101-489X
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
