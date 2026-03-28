@@ -37,10 +37,3 @@ Skills
 * Python, C++, C, MATLAB, Simulink, JMP
 * Docker, GitLab/GitHub CI, Python VirtualEnv
 * Signal Filtering, Controls Modeling & Design, Robotic Kinematics, RL, CNNs, hierarchical state machines
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
