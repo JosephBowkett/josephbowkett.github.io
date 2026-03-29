@@ -22,12 +22,12 @@ After the 2024 rearchitecture, I shifted roles to being Cognizant Engineer for I
 Extant Exobiology Life Surveyor (EELS)
 ------
 
-I had the privilege to develop the motor controller infrastructure that underpins the motion control capabilities of the Extant Exobiology Life Surveyor research (EELS)[https://www.science.org/doi/10.1126/scirobotics.adh8332] project, as has been featured across several (media outlets)[https://www.latimes.com/science/story/2023-08-24/jpl-search-life-watery-worlds-slithering-robot].
+I had the privilege to develop the motor controller infrastructure that underpins the motion control capabilities of the Extant Exobiology Life Surveyor research [EELS](https://www.science.org/doi/10.1126/scirobotics.adh8332) project, as has been featured across several [media outlets](https://www.latimes.com/science/story/2023-08-24/jpl-search-life-watery-worlds-slithering-robot).
 
 Sampling Autonomy for an Europa Lander (SAEL)
 ------
 
-I end up as task manager for the SAEL task at JPL, investigating problems relating to sampling peculiar to icy moons such as Europa, where biosignatures of life in liquid oceans deep inside the ice crust might be found just under the surface, out of reach of the high radiation from the Jovian magnetosphere. This culminated in a (field trial)[https://www.science.org/doi/10.1126/scirobotics.adi5582] at Matanuska Glacier, AK, where a cross-disciplinary team demonstrated autonomous end-to-end sampling activities with representative lander hardware.
+I end up as task manager for the SAEL task at JPL, investigating problems relating to sampling peculiar to icy moons such as Europa, where biosignatures of life in liquid oceans deep inside the ice crust might be found just under the surface, out of reach of the high radiation from the Jovian magnetosphere. This culminated in a [field trial](https://www.science.org/doi/10.1126/scirobotics.adi5582) at Matanuska Glacier, AK, where a cross-disciplinary team demonstrated autonomous end-to-end sampling activities with representative lander hardware.
 
 Robotics Collaborative Technology Alliance
 ------
