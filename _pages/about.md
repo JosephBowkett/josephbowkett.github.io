@@ -24,6 +24,8 @@ Extant Exobiology Life Surveyor (EELS)
 
 I had the privilege to develop the motor controller infrastructure that underpins the motion control capabilities of the Extant Exobiology Life Surveyor research [EELS](https://www.science.org/doi/10.1126/scirobotics.adh8332) project, as has been featured across several [media outlets](https://www.latimes.com/science/story/2023-08-24/jpl-search-life-watery-worlds-slithering-robot).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ifCIDT4X9AM?si=MBE6fOVfVa8ImYOh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Sampling Autonomy for an Europa Lander (SAEL)
 ------
 
