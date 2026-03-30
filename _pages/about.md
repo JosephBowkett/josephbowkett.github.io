@@ -15,7 +15,7 @@ Some of the projects I've been working on recently include:
 Mars Sample Return, Sample Retrieval Lander, Sample Transfer System (MSR-SRL-STS)
 ------
 
-Through two design iterations of NASA's Mars Sample Return, Sample Retrieval Lander (MSR-SRL) I was initially the Cognicant Engineer for Active Compliance and Wrench Estimation, then for Inter-vehicle Docking. In the first of these, a large 7-DoF robotic arm attached to SRL itself would retrieve rock sample tubes either from the Perseverence Rover, or off the ground when deposited by Sample Retrieval Helicopters. My role invovled design the force-torque sensing at the wrist of the robotic arm, as well as how those measurements were built into a dexterous force control algorithm.
+Through two design iterations of NASA's Mars Sample Return, Sample Retrieval Lander (MSR-SRL) I was initially the Cognicant Engineer for Active Compliance and Wrench Estimation, then for Inter-vehicle Docking. In the first of these, a large 7-DoF robotic arm attached to [SRL itself](https://science.nasa.gov/mission/mars-sample-return/sample-retrieval-lander/) would retrieve rock sample tubes either from the Perseverence Rover, or off the ground when deposited by Sample Retrieval Helicopters. My role invovled design the force-torque sensing at the wrist of the robotic arm, as well as how those measurements were built into a dexterous force control algorithm.
 
 After the 2024 rearchitecture, I shifted roles to being Cognizant Engineer for Inter-vehicle docking, or using the existing 5-DoF robotic arm on the Perseverence Rover to deliver sample tubes directly into a smaller SRL, while attempting to eliminate any need for changes to software on the rover itself.
 
