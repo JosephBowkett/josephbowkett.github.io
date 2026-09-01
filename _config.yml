@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Joseph Bowkett"
 title_separator          : "-"
 name                     : &name "Joseph Bowkett"
-description              : &description "PhD Candidate, Caltech"
+description              : &description "Group Lead, Robotic Manipulation & Sampling at NASA JPL"
 url                      : https://joseph-bowkett.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "josephbowkett/josephbowkett.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Joseph Bowkett"
   avatar           : "profile.png"
-  bio              : "Group Lead, Robotic Manipulation & Sampling (358J), NASA Jet Propulsion Laboratory"
+  bio              : "Group Lead for Robotic Manipulation & Sampling at NASA JPL. Robotics systems engineer & technical lead specializing in manipulation, real-time control, and physical robot deployment."
   location         : "Pasadena, California"
-  employer         :
+  employer         : "NASA Jet Propulsion Laboratory"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Gacl34sAAAAJ"
-  email            :
+  email            : "jbowkett@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bio"
+title: "About & Research"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,58 +8,78 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Group Lead for Robotic Manipulation and Sampling within the Robotic Mobility & Manipulation section of NASA's Jet Propulsion Laboratory. My interests focus around what is termed behavior level or 'functional' autonomy for robotic tasks, particularly in regard to grasping and manipulation, employing both proprioception and exteroception to build understanding of unstructured task spaces.
+I am the **Group Lead for Robotic Manipulation & Sampling** within the Robotic Mobility & Manipulation section of NASA's Jet Propulsion Laboratory (JPL), and a Caltech alumnus (Ph.D. in Mechanical Engineering, Burdick Robotics Lab). 
 
-Some of the projects I've been working on recently include:
+My work bridges **hands-on robotics systems engineering** and **technical leadership**. As an active individual contributor and architect, I develop, integrate, and deploy autonomy, real-time control, contact-rich manipulation, high-DoF locomotion, and embedded compute across physical robot platforms. As a Group Lead and Task Manager, I mentor engineers and research interns, guide architectural strategy, and partner across industry and spaceflight ecosystems to transition advanced autonomy from concept to flight and field demonstration.
 
-Mars Sample Return, Sample Retrieval Lander, Sample Transfer System (MSR-SRL-STS)
-------
+Below are highlights of recent research, mission capabilities, and robotic systems development:
 
-I acted as the Cognizant Engineer (CogE) for one or more robotic capabilities through two design iterations of NASA's Mars Sample Return (MSR) program. In the circa. 2023 MSR architecture, with a fully featured [Sample Retrieval Lander](https://science.nasa.gov/mission/mars-sample-return/sample-retrieval-lander/) (SRL), I took on the role of CogE for Wrench Estimation plus In-Contact Manipulation of the Sample Transfer Arm. This large 7-DoF robotic arm would retrieve rock sample tubes either from the Perseverence Rover, or off the ground when deposited by Sample Retrieval Helicopters. My role was to design the code that turned raw strain gauge measurements at the wrist sensor into gravity and temperature compensated force-torque tuples. I then took those measurements and worked out how to manipulate the delicate sample tubes, such as inserting them into the Mars Ascent Vehicle; which would have required the first use of a continuous, closed loop robotic arm force control algorithm on another planet. An end-to-end demonstration of the fully autonomous sample extraction, insertion, and MAV lid placement was released here:
+---
+
+### Robot Learning, Simulation & Edge AI
+
+#### NVIDIA Isaac Lab & Learning-Based Locomotion
+Served as technical mentor for development of PPO locomotion policies trained in **NVIDIA Isaac Lab** for an 18-DoF three-legged wheel-on-limb robot navigating challenging, irregular terrain. Supported the team from policy-training architecture through model export and target-platform inference, connecting simulation-trained RL policies to embedded deployment.
+
+#### Vision-Language-Action (VLA) Manipulation Research
+Actively mentoring an intern research initiative investigating Vision-Language-Action (VLA) foundation models to enhance generalized, perception-guided dexterous manipulation in unstructured environments.
+
+#### Embedded AI / HPSC Deployment & Hardware Benchmarking
+Deployed robotic algorithms across heterogeneous computing architectures, including x86, NVIDIA, and NASA's RISC-V High Performance Spaceflight Computing (HPSC) platform. Cross-compiled and executed neural-network policy inference via **ONNX** on HPSC, benchmarking inference latency and throughput against NVIDIA and x86 compute platforms to characterize edge deployment trade-offs for planetary robotics.
+
+---
+
+### Contact-Rich & Space Manipulation
+
+#### Mars Sample Return — In-Contact Manipulation & Wrench Estimation (MSR-SRL-STS)
+Served as Cognizant Engineer (CogE) for Wrench Estimation and In-Contact Manipulation for the 7-DoF Sample Transfer Arm on NASA's Mars Sample Return [Sample Retrieval Lander](https://science.nasa.gov/mission/mars-sample-return/sample-retrieval-lander/) (SRL). 
+
+Designed algorithms converting raw strain gauge data into gravity- and temperature-compensated force-torque wrenches, and developed core compliant contact behaviors for inserting delicate sample tubes into the Mars Ascent Vehicle (MAV) — intended to be the first continuous closed-loop robotic arm force control algorithm executed on another planet. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RnqbMj8NwfE?si=ffr0LX3juVYeecSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-After the 2024 rearchitecture, I shifted roles to be Cognizant Engineer for Inter-vehicle docking, or using the existing 5-DoF robotic arm on the Perseverence Rover to deliver sample tubes directly into a smaller SRL, while attempting to eliminate any need for changes to software on the rover itself. It involved studying all the existing capabilities of the robotic arm, along with all the validated sets of parameters that accompanied existing self-docking behavior (for exchanging drill bits), then transforming various matrices to permit docking with another vehicle. This culiminated in an end-to-end inter-vehicle docking demonstration in JPL's Mars Yard, using the Engineering Model of the Perseverence rover:
+#### Mars Sample Return — Inter-Vehicle Robotic Docking
+Following the 2024 MSR rearchitecture, served as Cognizant Engineer adapting validated Perseverance rover 5-DoF robotic arm self-docking behaviors for direct vehicle-to-vehicle sample transfer. Re-engineered kinematic frames and parameters to eliminate rover flight-software changes, culminating in a full end-to-end Engineering Model demonstration in JPL's Mars Yard:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ywitbfgEGtA?si=0BFpzQkG3QryBvbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-Extant Exobiology Life Surveyor (EELS)
-------
-
-I had the privilege to develop the motor controller infrastructure that underpins the motion control capabilities of the Extant Exobiology Life Surveyor research [EELS](https://www.science.org/doi/10.1126/scirobotics.adh8332) project, as has been featured across several [media outlets](https://www.latimes.com/science/story/2023-08-24/jpl-search-life-watery-worlds-slithering-robot).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ifCIDT4X9AM?si=MBE6fOVfVa8ImYOh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Sampling Autonomy for an Europa Lander (SAEL)
-------
-
-I end up as task manager for the SAEL task at JPL, investigating problems relating to sampling peculiar to icy moons such as Europa, where biosignatures of life in liquid oceans deep inside the ice crust might be found just under the surface, out of reach of the high radiation from the Jovian magnetosphere. This culminated in a [field trial](https://www.science.org/doi/10.1126/scirobotics.adi5582) at Matanuska Glacier, AK, where a cross-disciplinary team demonstrated autonomous end-to-end sampling activities with representative lander hardware.
-
-Robotics Collaborative Technology Alliance
-------
+#### RoMan Autonomous Mobile Manipulation (Robotics CTA)
+Through the Army Research Laboratory's Robotics Collaborative Technology Alliance (RCTA), developed end-to-end autonomous manipulation capabilities on the dual-arm tracked 'RoMan' platform to perceive, grasp, and extract previously unseen, massive, and entangled debris.
 
 ![RCTA Institutions](images/rcta_centers.png)
 
-Funded by the Army Research Laboratory, the Robotics Collaborative Technology Alliance (RCTA) brought together a number of research institutions to further aspects of robotics research that could facilitate the fielding of autonomous systems within active deployment zones to act as team members rather than just tools.
-
 <center> <img src="images/tool_to_teammate.png" alt="RCTA development objectives" title="RCTA development objectives" width="300"> </center>
 
-My area of focus has been on manipulation of previously unseen large and unweildly objects within piles, such as might be encountered within an urban deployment setting. The platform developed to demonstrate this and other manipulation capabilities is named 'RoMan', a tracked dual arm robot developed using technology licensed from the Jet Propulsion Laboratory.
+Integrated RGB-D perception for object singulation, heuristic-free geometric grasp planning, and active wrench-reactive pose compliance, enabling the robot to safely deflect its pose and lift heavy, unmodeled loads without breakage. Published in *Field Robotics* (2022).
 
 <center> <img src="images/roman.jpg" alt="RCTA RoMan platform" title="RCTA RoMan platform" width="600"> </center>
 
-We're using Roman to perceive, grasp, and transport a diverse range of large items, some with a model but most without. This employs RGBD vision to singulate objects and reason about their connectedness, grasp planning once a candidate object is found, and wrench reactive control, to allow the end effector to deflect its pose while lifting the heavy objects.
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sq1aoC5N1fs?si=URs8rpCwOWG5dZDO&amp;start=454" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-UPRITE
-------
-Unified PRocessing for Icy Terrain Exploration (UPRITE) is a strategic Research & Technology Development project at the Jet Propulsion Laboratory aimed at developing a means of autonomously selecting between discrete operating modes for a given task. It does this through an extension of a reinforcement learning algorithm named Multi-Armed Bandit theory, which attempts to intelligently select between different actions to maximize some payoff, without a priori knowledge of the reward given by each task.
+---
 
-The manipulation side of the project is utilizing JPL's Surrogate platform:
+### Autonomous Field Robotics & High-DoF Mobility
+
+#### Europa Lander Autonomous Surface Sampling (SAEL)
+Served as Task Manager and software lead for Sampling Autonomy on the Europa Lander mission concept. Led an interdisciplinary engineering team developing an end-to-end autonomy stack integrating kinematics, visual perception, workspace analysis, force/torque proprioceptive monitoring, science site selection, and fault recovery. Successfully demonstrated fully autonomous sampling on representative lander hardware during field trials at Matanuska Glacier, Alaska. Published as lead author in [*Science Robotics* (2025)](https://www.science.org/doi/10.1126/scirobotics.adi5582).
+
+#### Extant Exobiology Life Surveyor (EELS) Snake-like Robot
+Developed the underlying motor-controller and communications infrastructure powering the [EELS](https://www.science.org/doi/10.1126/scirobotics.adh8332) robot, a highly articulated bio-inspired snake robot designed for extreme terrain, crevasses, and icy worlds. Engineered low-level EtherCAT motor control, CAN/serial device drivers, and real-time motion control profilers across dozens of actuated DoF. Featured across international media and published in [*Science Robotics* (2024)](https://www.science.org/doi/10.1126/scirobotics.adh8332).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ifCIDT4X9AM?si=MBE6fOVfVa8ImYOh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### UPRITE & Autonomous Mode Selection
+Unified PRocessing for Icy Terrain Exploration (UPRITE) investigated reinforcement learning multi-armed bandit (MAB) methods to autonomously select optimal manipulation and mobility modes under environmental uncertainty, demonstrated on JPL's Surrogate dual-arm manipulation platform:
 
 <center> <img src="images/surrogate_artists.jpg" alt="JPL's Surrogate Robot - Artist's Impression" title="JPL's Surrogate Robot - Artist's Impression" width="500"> </center>
 
 <center> <img src="images/surrogate.jpg" alt="JPL's Surrogate Robot - Original Configuration" title="JPL's Surrogate Robot - Original Configuration" width="500"> </center>
 
+---
+
+### Real-Time Systems, Embedded Hardware & Ecosystem Leadership
+
+- **Heterogeneous Real-Time Systems**: Technical lead demonstrating robotics algorithms and deterministic Time-Sensitive Networking (TSN) across heterogeneous compute endpoints (x86, ARM, RISC-V, NVIDIA).
+- **ROS 1/2 & Flight Middleware**: Developed and maintain modules running under both ROS 1 and ROS 2 from a common source base; created an automated code generator for a ROS 2–F Prime DDS bridge supporting integration between robotics research and spaceflight software.
+- **Hardware Integration & Diagnostics**: Developed diagnostic tools and test procedures for EtherCAT, CAN, RS-232/422/485, motor controllers, and 6-axis force/torque sensors.
+- **Industry & Ecosystem Collaboration**: Direct collaboration with external partners including Acontis (EtherCAT) and eProsima (DDS interoperability); represented JPL on industry-facing technical panels and conducted live robotics capability demonstrations at the IEEE Space Computing Conference Space Robotics Workshop to stakeholders from Microchip, BAE Systems, Disney, and others.
